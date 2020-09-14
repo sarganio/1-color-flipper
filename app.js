@@ -10,5 +10,5 @@ const randomIndex = Math.floor(Math.random() * colors.length);
 document.body.style.backgroundColor = colors[randomIndex];
 //change the name of the color in the page accordingly
 color.textContent = colors[randomIndex];
-console.log(randomIndex);
+//console.log(randomIndex);//for D'bug
 });
