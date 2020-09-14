@@ -4,6 +4,8 @@ const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
 
 btn.addEventListener('click',function(){
-const randomNumber = getRandomNumber();
-color.log(randomNumber);
-}
+//generate a random index from the range of it length
+const randomIndex = Math.floor(Math.random() * colors.length);
+
+console.log(randomNumber);
+})
